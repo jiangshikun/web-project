@@ -4,7 +4,6 @@ import com.github.pagehelper.PageInfo;
 import com.hiwan.address.entity.Address;
 import com.hiwan.address.service.AddressService;
 import com.hiwan.common.Result;
-import jdk.nashorn.internal.runtime.GlobalConstants;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,7 +24,7 @@ import java.util.List;
  **/
 @Slf4j
 @RestController
-@RequestMapping("address")
+//@RequestMapping("address")
 public class AddressController {
 
     @Autowired
