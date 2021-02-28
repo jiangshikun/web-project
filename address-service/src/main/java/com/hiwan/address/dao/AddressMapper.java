@@ -3,8 +3,10 @@ package com.hiwan.address.dao;
 import com.hiwan.address.entity.Address;
 import com.hiwan.address.entity.AddressExample;
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+@Mapper
 public interface AddressMapper {
     long countByExample(AddressExample example);
 
