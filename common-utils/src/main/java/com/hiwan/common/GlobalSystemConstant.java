@@ -17,7 +17,8 @@ public class GlobalSystemConstant {
     public static final Integer DEFAULT_CURRENT_PAGE = 1;
      /***分页参数：页大小***/
     public static final Integer DEFAULT_PAGE_SIZE = 10;
-    
+
+    public static final int SUB_DAY = 1;
 
 
 }
